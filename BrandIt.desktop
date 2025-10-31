@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Brand macro copypasta
+Comment=Copy the brand icon and name like ":brand: brand" when typing !brand for use in Slack
+Type=Service
+Version=1.0
+Icon=edit-copy
+X-KDE-PluginInfo-Author=Marcos Gutierrez
+X-KDE-PluginInfo-Email=margual56@gmail.com
+X-KDE-PluginInfo-Name=BrandIt
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=DBus
+X-Plasma-DBusRunner-Service=org.kde.BrandIt

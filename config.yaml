@@ -1,0 +1,66 @@
+# Brand Text Copy - Configuration File
+# =====================================
+# This file defines the text patterns that will be copied to clipboard
+# when you type !<keyword> in KRunner
+
+# Default pattern when keyword doesn't match any specific entry
+# Use {brand} as a placeholder for the typed keyword
+default_pattern: ":{brand}: {brand}"
+
+# Custom patterns for specific keywords
+# Format: keyword: "text to copy"
+# You can use {brand} as a placeholder for the keyword itself
+patterns:
+    # Common development tools and platforms
+    slack: ":slack: Slack"
+    github: ":github: GitHub"
+    gitlab: ":gitlab: GitLab"
+    docker: ":docker: Docker"
+    kubernetes: ":kubernetes: Kubernetes"
+    vscode: ":vscode: VS Code"
+
+    # Social platforms
+    twitter: ":twitter: Twitter"
+    linkedin: ":linkedin: LinkedIn"
+    youtube: ":youtube: YouTube"
+    reddit: ":reddit: Reddit"
+
+    # Tech companies
+    google: ":google: Google"
+    apple: ":apple: Apple"
+    microsoft: ":microsoft: Microsoft"
+    amazon: ":amazon: Amazon"
+    meta: ":meta: Meta"
+
+    # Programming languages
+    python: ":python: Python"
+    javascript: ":javascript: JavaScript"
+    rust: ":rust: Rust"
+    go: ":go: Go"
+    java: ":java: Java"
+    cpp: ":cpp: C++"
+
+    # Project management tools
+    linear: ":linear: Linear"
+    jira: ":jira: Jira"
+    notion: ":notion: Notion"
+    trello: ":trello: Trello"
+    asana: ":asana: Asana"
+
+    # Custom emojis or patterns
+    bug: "🐛 Bug:"
+    feature: "✨ Feature:"
+    fix: "🔧 Fix:"
+    docs: "📚 Documentation:"
+    refactor: "♻️ Refactor:"
+    test: "🧪 Test:"
+
+    # You can also use completely custom patterns
+    meeting: "📅 Meeting Notes - {brand}"
+    task: "☑️ Task: {brand}"
+    idea: "💡 Idea: {brand}"
+# Advanced patterns with multiple placeholders
+# Uncomment and modify as needed:
+# pr: "PR #{brand} -"
+# issue: "Issue #{brand}:"
+# ticket: "[{brand}]"
